@@ -53,7 +53,7 @@ const CONFIG = {
     },
   },
   utterances: {
-    enable: false,
+    enable: true,
     config: {
       repo: process.env.NEXT_PUBLIC_UTTERANCES_REPO || "",
       "issue-term": "og:title",
@@ -61,7 +61,7 @@ const CONFIG = {
     },
   },
   cusdis: {
-    enable: true,
+    enable: false,
     config: {
       host: "https://cusdis.com",
       appid: "112310d2-5b04-495a-86a2-468d221fa4a2", // Embed Code -> data-app-id value
